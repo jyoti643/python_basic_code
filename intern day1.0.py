@@ -1,0 +1,16 @@
+stud_name=str(input("Enter the student name : "))
+print(stud_name)
+sub1=float(input("Enter the marks for subject1 : "))
+sub2=float(input("Enter the marks for subject2 : "))
+sub3=float(input("Enter the marks for subject3 : "))
+sub4=float(input("Enter the marks for subject4 : "))
+sub5=float(input("Enter the marks for subject5 : "))
+print(sub1)
+print(sub2)
+print(sub3)
+print(sub4)
+print(sub5)
+total =sub1+sub2+sub3+sub4+sub5
+print("the total marks obtained : ",total)
+percent=(total/500)*100
+print("Percetage obtained :",percent)
